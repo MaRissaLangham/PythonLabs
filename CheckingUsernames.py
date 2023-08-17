@@ -7,3 +7,4 @@ if newUsers:
             print("Sorry, the username " + user + " is already taken.")
         else:
             print("The username " + user + " is available.")
+            
