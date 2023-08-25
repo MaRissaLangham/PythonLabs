@@ -66,10 +66,10 @@ if userInput == 'add':
     notes = input('Notes: ')
     
     # Create a dictionary for the user's information
-    name = {'name': name, 'phone': phone, 'email': email, 'address': address, 'city': city, 'state': state, 'zip': zip, 'Birthday': birthday, 'notes': notes}
+    contactName = {'name': name, 'phone': phone, 'email': email, 'address': address, 'city': city, 'state': state, 'zip': zip, 'Birthday': birthday, 'notes': notes}
     
     # Add the user's information to the address book
-    addressBook.updated(name)
+    addressBook.updated(contactName)
     
     # Print the user's information
     print('Here is the information you entered:')
